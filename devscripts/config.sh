@@ -1,0 +1,6 @@
+name="naiveTree"
+version="1.2"
+path_to_excutables="../Applications/NaiveTree/src/naivetree"
+channelID="ch2"
+txID=$channelID".tx"
+blockID=$channelID".block"

@@ -1,0 +1,57 @@
+
+# 100 in 2000 querystring 累计了
+Forward: Data 1000 completed in 477.000000 ms
+Forward: Data 1100 completed in 684.000000 ms
+Forward: Data 1200 completed in 942.000000 ms
+Forward: Data 1300 completed in 1263.000000 ms
+Forward: Data 1400 completed in 1433.000000 ms
+Forward: Data 1500 completed in 1705.000000 ms
+Forward: Data 1600 completed in 1914.000000 ms
+Forward: Data 1700 completed in 2755.000000 ms
+Forward: Data 1800 completed in 2478.000000 ms
+Forward: Data 1900 completed in 2641.000000 ms
+Forward: Data 1000 completed in 360.000000 ms
+Forward: Data 1100 completed in 759.000000 ms
+Forward: Data 1200 completed in 882.000000 ms
+Forward: Data 1300 completed in 991.000000 ms
+Forward: Data 1400 completed in 1132.000000 ms
+Forward: Data 1500 completed in 1366.000000 ms
+Forward: Data 1600 completed in 1972.000000 ms
+Forward: Data 1700 completed in 1939.000000 ms
+Forward: Data 1800 completed in 1936.000000 ms
+Forward: Data 1900 completed in 2094.000000 ms
+
+# queryString 单独了
+Forward: Data 1000 completed in 436.000000 ms
+Forward: Data 1100 completed in 501.000000 ms
+Forward: Data 1200 completed in 437.000000 ms
+Forward: Data 1300 completed in 395.000000 ms
+Forward: Data 1400 completed in 402.000000 ms
+Forward: Data 1500 completed in 391.000000 ms
+Forward: Data 1600 completed in 395.000000 ms
+Forward: Data 1700 completed in 394.000000 ms
+Forward: Data 1800 completed in 392.000000 ms
+Forward: Data 1900 completed in 375.000000 ms
+
+
+Forward: Data 1000 completed in 419.000000 ms
+Forward: Data 1100 completed in 576.000000 ms
+Forward: Data 1200 completed in 508.000000 ms
+Forward: Data 1300 completed in 479.000000 ms
+Forward: Data 1400 completed in 473.000000 ms
+Forward: Data 1500 completed in 481.000000 ms
+Forward: Data 1600 completed in 478.000000 ms
+Forward: Data 1700 completed in 480.000000 ms
+Forward: Data 1800 completed in 455.000000 ms
+Forward: Data 1900 completed in 473.000000 ms
+
+Backward: Data 99 completed in 67.000000  ms
+Backward: Data 199 completed in 61.000000  ms
+Backward: Data 299 completed in 62.000000  ms
+Backward: Data 399 completed in 67.000000  ms
+Backward: Data 499 completed in 59.000000  ms
+Backward: Data 599 completed in 44.000000  ms
+Backward: Data 699 completed in 66.000000  ms
+Backward: Data 799 completed in 60.000000  ms
+Backward: Data 899 completed in 61.000000  ms
+Backward: Data 999 completed in 62.000000  ms
