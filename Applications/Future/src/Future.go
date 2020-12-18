@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"crypto/sha1"
+	"crypto/sha256"
 	"encoding/binary"
 	"encoding/hex"
 	"encoding/json"
@@ -91,7 +91,7 @@ func IntToBytes(n int) []byte {
 
 func GenerateRecord(seed *rand.Rand, seq int) *Record {
 
-	sha := sha1.New()
+	sha := sha256.New()
 	sha.Write(IntToBytes(seq))
 	// fmt.Println(hex.EncodeToString(sha.Sum(Float32ToByte(seed.Float32()))))
 	record := Record{

@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"crypto/sha1"
+	"crypto/sha256"
 	"encoding/binary"
 	"encoding/hex"
 	"encoding/json"
@@ -92,7 +92,7 @@ func IntToBytes(n int) []byte {
 
 func GenerateRecord(seed *rand.Rand, seq int) *Record {
 
-	sha := sha1.New()
+	sha := sha256.New()
 	sha.Write(IntToBytes(seq))
 
 	record := Record{
@@ -448,7 +448,7 @@ func (s *SmartContract) ForwardSearchWithSeq(ctx contractapi.TransactionContextI
 		queryString = ""
 		for i := 0; i < testNum; i++ {
 			recordInicator := testNum*testSeq[j] + i
-			sha := sha1.New()
+			sha := sha256.New()
 			sha.Write(IntToBytes(recordInicator))
 			queryString += "|" + hex.EncodeToString(sha.Sum(nil))
 		}
@@ -539,7 +539,7 @@ func (s *SmartContract) BackwardSearch(ctx contractapi.TransactionContextInterfa
 		// println("id = %s", id)
 
 		// simulates the computation of previous traceID
-		sha := sha1.New()
+		sha := sha256.New()
 		tmp, err := strconv.Atoi(id)
 		if err != nil {
 		}

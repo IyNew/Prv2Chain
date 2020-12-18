@@ -88,6 +88,10 @@ Forward: Data 1600 completed in 2382.000000 ms
 Forward: Data 1700 completed in 4630.000000 ms
 Forward: Data 1800 completed in 3479.000000 ms
 Forward: Data 1900 completed in 3490.000000 ms
+
+[3244,3142,3328,3577,2889,3067,2382,4630,3479,3490]
+
+
 Backward: Data 99 completed in 63.000000  ms
 Backward: Data 199 completed in 56.000000  ms
 Backward: Data 299 completed in 61.000000  ms
@@ -99,3 +103,33 @@ Backward: Data 799 completed in 67.000000  ms
 Backward: Data 899 completed in 81.000000  ms
 Backward: Data 999 completed in 61.000000  ms
 
+[63,56,61,78,82,62,56,67,81,61]
+
+
+
+Forward: Data 1000 completed in 2844.000000 ms
+Forward: Data 1100 completed in 2580.000000 ms
+Forward: Data 1200 completed in 2617.000000 ms
+Forward: Data 1300 completed in 2616.000000 ms
+Forward: Data 1400 completed in 2248.000000 ms
+Forward: Data 1500 completed in 2220.000000 ms
+Forward: Data 1600 completed in 1709.000000 ms
+Forward: Data 1700 completed in 3102.000000 ms
+Forward: Data 1800 completed in 2422.000000 ms
+Forward: Data 1900 completed in 2725.000000 ms
+
+2844.000000,2580.000000,2617.000000,2616.000000,2248.000000,2220.000000,1709.000000,3102.000000,2422.000000,2725.000000
+
+
+Backward: Data 99 completed in 62.000000  ms
+Backward: Data 199 completed in 59.000000  ms
+Backward: Data 299 completed in 56.000000  ms
+Backward: Data 399 completed in 55.000000  ms
+Backward: Data 499 completed in 61.000000  ms
+Backward: Data 599 completed in 57.000000  ms
+Backward: Data 699 completed in 40.000000  ms
+Backward: Data 799 completed in 55.000000  ms
+Backward: Data 899 completed in 42.000000  ms
+Backward: Data 999 completed in 55.000000  ms
+
+[62.000000,59.000000,56.000000,55.000000,61.000000,57.000000,40.000000,55.000000,42.000000,55.000000]

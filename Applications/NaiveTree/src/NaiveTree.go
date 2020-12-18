@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"crypto/sha1"
+	"crypto/sha256"
 	"encoding/binary"
 	"encoding/hex"
 	"encoding/json"
@@ -17,9 +17,9 @@ import (
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
 )
 
-var testNum int = 1000
+var testNum int = 100
 var testTreeNum int = 20
-var straightTreeNum int = 20
+var straightTreeNum int = 10
 
 func GetForwardTestSequence() []int {
 	var testSeq []int
@@ -120,7 +120,7 @@ func IntToBytes(n int) []byte {
 
 func GenerateRecord(seed *rand.Rand, seq int) *Record {
 
-	sha := sha1.New()
+	sha := sha256.New()
 	sha.Write(IntToBytes(seq))
 	// fmt.Println(hex.EncodeToString(sha.Sum(Float32ToByte(seed.Float32()))))
 	record := Record{
